@@ -1,0 +1,56 @@
+body {
+    display: flex;
+}
+
+#container {
+    height: 97vh;
+    width: 100vw;
+}
+
+#menuBtn {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    height: 80vh;
+    width: 20vw;
+    top: 10vh;
+    background-color: lightgrey;
+    z-index: 10;
+    opacity: 70%;
+}
+
+#elementSelectContainer {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+
+#elementSelect {
+    position: relative;
+    top: 25%;
+    height: 30%;
+}
+
+#customize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+}
+
+#submitContainer {
+    height: 20%;
+}
+
+.createdEl {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
